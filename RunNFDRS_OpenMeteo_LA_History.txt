@@ -1,0 +1,23 @@
+
+# Los Angeles Open-Meteo historical weather test
+# Experimental model using sample NFDRS initialization.
+
+initFile = "C:/Users/ianbp/Documents/NFDRS4/data/NFDRSInitSample.txt";
+
+wxFile = "C:/Users/ianbp/Documents/NFDRS4/live/fw21_history/los_angeles_history.fw21";
+
+loadFromStateFile = "";
+
+saveToStateFile = "C:/Users/ianbp/Documents/NFDRS4/live/open_meteo_la_history_state.nfdrs";
+
+allOutputsFile = "C:/Users/ianbp/Documents/NFDRS4/live/open_meteo_la_history_all.csv";
+
+indexOutputFile = "C:/Users/ianbp/Documents/NFDRS4/live/open_meteo_la_history_indexes.csv";
+
+fuelMoisturesOutputFile = "C:/Users/ianbp/Documents/NFDRS4/live/open_meteo_la_history_moistures.csv";
+
+outputInterval = "0";
+
+stationID = "open_meteo_los_angeles";
+
+useStoredOutputs = "0";

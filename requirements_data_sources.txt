@@ -1,0 +1,10 @@
+# Existing project dependencies may be installed separately.
+requests>=2.31
+pandas>=2.1
+numpy>=1.26
+
+# Optional NOAA HRRR GRIB2 access and extraction:
+herbie-data>=2024.8.0
+xarray>=2024.1
+cfgrib>=0.9.14
+eccodes>=2.35

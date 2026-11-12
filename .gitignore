@@ -407,3 +407,50 @@ CMakeSettings.json
 /CMakeFiles/3.29.5-msvc4/CompilerIdCXX/CMakeCXXCompilerId.cpp
 /CMakeFiles/*
 /CMakeFiles/3.29.5-msvc4/CMakeDetermineCompilerABI_C.bin
+# Local build directories
+build/
+build_fixed/
+cmake-build-*/
+
+# Python temporary files
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Downloaded weather data and outputs
+live/
+run/
+NFDRSIndexes.csv
+NFDRSMoistures.csv
+NFDRSoutput.csv
+
+# Installers and backups
+*.msi
+*.before_timestamp_fix
+
+# Credentials
+.env
+.env.*
+*.key
+secrets.json
+credentials.json
+
+# Compiled C++ files
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.exp
+*.dll
+*.lib
+/extern/config4cpp/bin
+
+# Generated documentation
+docs/_build/
+
+# IDE files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,29 @@
+
+# Open-Meteo Los Angeles NFDRS4 test
+# Uses modeled weather data, not station observations.
+
+initFile = "C:/Users/ianbp/Documents/NFDRS4/data/NFDRSInitSample.txt";
+
+wxFile = "C:/Users/ianbp/Documents/NFDRS4/live/fw21/los_angeles.fw21";
+
+# Start without loading a previously saved NFDRS state.
+loadFromStateFile = "";
+
+# Save the resulting state separately.
+saveToStateFile = "C:/Users/ianbp/Documents/NFDRS4/live/open_meteo_la_state.nfdrs";
+
+# Keep all Open-Meteo outputs separate from historical results.
+allOutputsFile = "C:/Users/ianbp/Documents/NFDRS4/live/open_meteo_la_all.csv";
+
+indexOutputFile = "C:/Users/ianbp/Documents/NFDRS4/live/open_meteo_la_indexes.csv";
+
+fuelMoisturesOutputFile = "C:/Users/ianbp/Documents/NFDRS4/live/open_meteo_la_moistures.csv";
+
+# 0 = hourly output
+outputInterval = "0";
+
+# Identifies the modeled Los Angeles location.
+stationID = "open_meteo_los_angeles";
+
+# 0 = calculate from weather rather than stored outputs
+useStoredOutputs = "0";

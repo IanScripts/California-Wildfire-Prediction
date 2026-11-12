@@ -635,7 +635,7 @@ TM* utctime::tm_increment_hour(TM* changing_tm, const int quantity) {
             if ( num_hours >= hours_in_day - changing_tm->tm_hour ) {
                 ++num_days;
                 num_hours -= hours_in_day - changing_tm->tm_hour;
-                changing_tm->tm_hour = num_hours;
+                changing_tm->tm_hour = 0;
             }
             tm_increment_day(changing_tm, num_days);
         }
